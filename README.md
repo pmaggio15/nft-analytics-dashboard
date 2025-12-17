@@ -1,76 +1,88 @@
 # NFT Analytics Dashboard
 
-This project is a production-style NFT analytics dashboard built during a virtual internship and extended beyond the starter codebase.
-
-The focus was on real-world frontend workflows, authentication, testing, and scalable UI architecture.
+Production style React dashboard built during a virtual internship, extending an existing codebase with secure routing, role based access, async UI patterns, and comprehensive testing.
 
 ---
 
-## Core Capabilities
+## Overview
 
-- Secure, role-based authenticated dashboard  
-- Real-time data-driven UI states  
-- Modular, reusable layout components  
-- Async data handling and error states  
-- Component-level testing  
+Extended a React based NFT analytics dashboard in a team environment, implementing authentication flows, multi role user access, resilient async data handling, and component level testing. Built to mirror real world sprint workflows with pull requests, code reviews, and production standards.
 
 ---
 
-## Architecture Overview
+## Key Features
 
-**Frontend**
-- React-based dashboard architecture  
-- Structured routing and layout composition  
+- **Secure routing** with role-based access control and protected layouts
+- **Multi role user flows** supporting different permission levels
+- **Async data resilience** with loading states, error boundaries, and pagination
+- **Firebase Authentication** integration with guarded routes
+- **Comprehensive testing** using Jest and React Testing Library
+- **Real time data rendering** with Firestore integration
 
-**Backend / Services**
-- Firebase authentication and data storage  
+---
 
-**Testing**
-- Component testing for reliability and regressions  
+## Technical Architecture
+
+### Frontend
+- **React** with modular layout and component composition
+- **Protected routing** with role aware access control
+- **Async UI state management** for loading, error, and empty states
+- **Reusable component patterns** for scalable architecture
+
+### Backend Services
+- **Firebase Authentication** for secure user flows
+- **Firestore** for real-time data storage and retrieval
+- Role-based data access with query scoping
+
+### Testing
+- **Jest** for unit testing
+- **React Testing Library** for integration testing
+- Focus on user behavior validation, not implementation details
 
 ---
 
 ## Tech Stack
 
-**Core**
+**Core Framework**
 - React
 - JavaScript
-- Firebase
-- CSS
+- Firebase (Auth + Firestore)
+- CSS3
 
 **Testing**
 - Jest
 - React Testing Library
 
-**Tooling**
-- Git
-- GitHub
+**Workflow**
+- Git/GitHub
+- Pull requests and code reviews
+- Sprint based feature delivery
 
 ---
 
-## Engineering Focus
+## Engineering Highlights
 
-- Production-style frontend workflows  
-- Authenticated UI states  
-- Component testing discipline  
-- Real-world sprint-style development  
+✓ **Team Collaboration** — Extended existing codebase in sprint cycles with PR based workflows  
+✓ **Production Patterns** — Implemented secure routing, async resilience, and error handling  
+✓ **Testing Discipline** — Wrote tests focused on user behavior and regression prevention  
+✓ **Real World Workflows** — Code reviews, iteration, and feedback driven development  
 
-This project reflects how frontend engineers extend and harden existing production codebases.
+Built to mirror production level frontend engineering practices.
 
 ---
 
 ## Live Demo
 
-🔗 https://paige-internship-fawn.vercel.app/
+🔗 **[View Live Application](https://paige-internship-fawn.vercel.app/)**
 
 ---
 
 ## Author
 
 **Paige Maggio**  
-Frontend Engineer — React, TypeScript, AI-Driven Interfaces  
+Frontend Engineer | React, TypeScript, Next.js  
 
-📍 Montana  
 📧 pmaggio15@gmail.com  
-🌐 https://paigemaggio.dev  
-💼 https://linkedin.com/in/paigemaggio
+🌐 [paigemaggio.dev](https://paigemaggio.dev)  
+💼 [LinkedIn](https://linkedin.com/in/paigemaggio)  
+🐙 [GitHub](https://github.com/pmaggio15)

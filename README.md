@@ -77,12 +77,28 @@ Built to mirror production level frontend engineering practices.
 
 ---
 
+## Architecture
+```
+├── Frontend (React)
+│   ├── Reusable component library
+│   ├── Secure routing and role-based flows
+│   └── Loading states and pagination
+│
+├── API Integration
+│   ├── REST API data fetching
+│   ├── Dynamic NFT data rendering
+│   └── Error handling and edge cases
+│
+└── Deployment (Vercel)
+    ├── Continuous integration
+    └── Cross-browser compatibility
+```
+
+---
+
 ## Author
 
 **Paige Maggio**  
-Frontend Engineer | React, TypeScript, Next.js  
+Frontend Engineer — React, TypeScript, Next.js
 
-📧 pmaggio15@gmail.com  
-🌐 [paigemaggio.dev](https://paigemaggio.dev)  
-💼 [LinkedIn](https://linkedin.com/in/paigemaggio)  
-🐙 [GitHub](https://github.com/pmaggio15)
+[Portfolio](https://paigemaggio.dev) • [LinkedIn](https://linkedin.com/in/paigemaggio) • [GitHub](https://github.com/pmaggio15)

@@ -2,6 +2,8 @@
 
 Production style React dashboard built during a virtual internship, extending an existing codebase with secure routing, role based access, async UI patterns, and comprehensive testing.
 
+🔗 **Live Demo:** [paige-internship-fawn.vercel.app](https://paige-internship-fawn.vercel.app/)
+
 ---
 
 ## Overview
@@ -31,7 +33,7 @@ Extended a React based NFT analytics dashboard in a team environment, implementi
 
 ### Backend Services
 - **Firebase Authentication** for secure user flows
-- **Firestore** for real-time data storage and retrieval
+- **Firestore** for real time data storage and retrieval
 - Role-based data access with query scoping
 
 ### Testing
@@ -43,20 +45,11 @@ Extended a React based NFT analytics dashboard in a team environment, implementi
 
 ## Tech Stack
 
-**Core Framework**
-- React
-- JavaScript
-- Firebase (Auth + Firestore)
-- CSS3
-
-**Testing**
-- Jest
-- React Testing Library
-
-**Workflow**
-- Git/GitHub
-- Pull requests and code reviews
-- Sprint based feature delivery
+| Frontend | Backend Services | Testing | Tooling |
+|----------|------------------|---------|---------|
+| React | Firebase Auth | Jest | Git |
+| JavaScript | Firestore | React Testing Library | GitHub |
+| CSS3 | Role-based Access | | Vercel |
 
 ---
 
@@ -71,27 +64,21 @@ Built to mirror production level frontend engineering practices.
 
 ---
 
-## Live Demo
-
-🔗 **[View Live Application](https://paige-internship-fawn.vercel.app/)**
-
----
-
-## Architecture
+## Project Structure
 ```
 ├── Frontend (React)
 │   ├── Reusable component library
 │   ├── Secure routing and role-based flows
 │   └── Loading states and pagination
 │
-├── API Integration
-│   ├── REST API data fetching
-│   ├── Dynamic NFT data rendering
-│   └── Error handling and edge cases
+├── Backend Services (Firebase)
+│   ├── Authentication flows
+│   ├── Firestore data fetching
+│   └── Role based access control
 │
 └── Deployment (Vercel)
     ├── Continuous integration
-    └── Cross-browser compatibility
+    └── Cross browser compatibility
 ```
 
 ---

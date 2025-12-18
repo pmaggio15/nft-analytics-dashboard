@@ -64,25 +64,6 @@ Built to mirror production level frontend engineering practices.
 
 ---
 
-## Project Structure
-```
-├── Frontend (React)
-│   ├── Reusable component library
-│   ├── Secure routing and role-based flows
-│   └── Loading states and pagination
-│
-├── Backend Services (Firebase)
-│   ├── Authentication flows
-│   ├── Firestore data fetching
-│   └── Role based access control
-│
-└── Deployment (Vercel)
-    ├── Continuous integration
-    └── Cross browser compatibility
-```
-
----
-
 ## Author
 
 **Paige Maggio**  
